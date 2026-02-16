@@ -1,1 +1,42 @@
-<!-- Index side of the app -->
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tolle Kühlschrank App</title>
+    <link rel="stylesheet" href="style.scss">
+</head>
+
+<body>
+    <header>
+        <h1>Mein Kühlschrank</h1>
+    </header>
+
+    <main>
+        <section id="items-list">
+            <h2>Inhalt</h2>
+            <ul id="items"></ul>
+        </section>
+
+        <section id="add-item">
+            <h2>Neues Produkt</h2>
+            <form>
+                <input type="text" placeholder="Produktname" required>
+                <input type="date" required>
+                <button type="submit">Hinzufügen</button>
+            </form>
+        </section>
+
+        <section id="add-item">
+            <h2>Produkt Entnehmen</h2>
+            <form>
+                <input type="text" placeholder="Produktname" required>
+                <input type="date" required>
+                <button type="submit">Entnehmen</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
